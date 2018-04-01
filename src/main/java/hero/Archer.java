@@ -5,6 +5,6 @@ package hero;
  */
 public interface Archer {
 
-    void shoot();
+    int shoot();
 
 }

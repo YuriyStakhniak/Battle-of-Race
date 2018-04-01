@@ -8,9 +8,7 @@ import hero.impl.elf.ElfMage;
 import hero.impl.elf.ElfWarrior;
 import team.Team;
 
-/**
- * Created by yurezzz13 on 30.03.18.
- */
+
 public class ElfTeam extends Team {
 
 
@@ -19,8 +17,7 @@ public class ElfTeam extends Team {
     }
 
     public Archer createArcher() {
-        return new ElfArcher();
-    }
+        return new ElfArcher(8987, 4);}
 
     public Warrior createWarrior() {
         return new ElfWarrior();

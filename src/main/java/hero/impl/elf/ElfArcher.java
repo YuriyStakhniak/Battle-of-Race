@@ -10,7 +10,9 @@ public class ElfArcher extends Elf implements Archer {
         super(damage, health);
     }
 
-    public void shoot() {
-
+    @Override
+    public int shoot() {
+        System.out.println("Elf archer shoot for 10 DP");
+        return 10;
     }
 }
